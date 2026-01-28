@@ -1,0 +1,44 @@
+:root {
+  --bg: #fafaf8;
+  --bg-alt: #f2f1ed;
+  --text: #111110;
+  --text-secondary: #555550;
+  --text-tertiary: #8a8a82;
+  --border: #e2e1dc;
+  --border-hover: #c8c7c0;
+  --accent: #111110;
+
+  --font-display: 'Instrument Serif', Georgia, serif;
+  --font-body: 'Geist', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100dvh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: var(--text);
+  color: var(--bg);
+}
